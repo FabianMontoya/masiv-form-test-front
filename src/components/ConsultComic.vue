@@ -20,7 +20,7 @@
             <v-btn @click="getBackNext('back')" :disabled="disable.back" v-bind="attrs" v-on="on">Ant.</v-btn>
           </template><span>Anterior</span></v-tooltip>
           <v-tooltip bottom><template v-slot:activator="{ on, attrs }">
-            <v-btn @click="getRandom" v-bind="attrs" v-on="on">Random</v-btn>
+            <v-btn @click="getRandom" color="primary" v-bind="attrs" v-on="on">Random</v-btn>
           </template><span>Buscar aleatorio</span></v-tooltip>
           <v-tooltip bottom><template v-slot:activator="{ on, attrs }">
             <v-btn @click="getBackNext('next')" :disabled="disable.next" v-bind="attrs" v-on="on">Sig.</v-btn>
