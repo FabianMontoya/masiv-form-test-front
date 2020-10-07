@@ -31,14 +31,15 @@
         </v-row>
       </v-col>
 
-      <v-col class="mb-4">
+      <v-col class="mb-4" cols="12">
         <v-row justify="center">
           <v-img
             :src="data.img"
             class="my-3"
             contain
-            max-width="800"
             max-height="800"
+            max-width="700"
+            aspect-ratio="1.4"
             @click="openImg"
           />
         </v-row>
